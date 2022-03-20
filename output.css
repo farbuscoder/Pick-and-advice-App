@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Rubik:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  background-color: #1e2731;
+}
+body .advice-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  height: 45%;
+  border-radius: 0.9375rem;
+  background-color: #5f6972;
+  color: aliceblue;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+body .advice-container h1 {
+  font-size: 1rem;
+  padding: 8px;
+  font-family: "Rubik", sans-serif;
+  font-weight: lighter;
+  color: #3afa84;
+  letter-spacing: 3px;
+}
+body .advice-container .body-advice {
+  font-size: 25px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.575);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+body .advice-container .body-advice p {
+  font-family: "Nunito", sans-serif;
+}
+body .advice-container .icon {
+  margin-bottom: 2rem;
+  position: absolute;
+  bottom: -65px;
+  right: 41%;
+  padding: 1.2rem;
+  background-color: #5f6972;
+}
+body .advice-container button {
+  position: absolute;
+  bottom: -37px;
+  border-radius: 50%;
+  padding: 21px;
+  background-color: #3afa84;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+body .advice-container button i {
+  font-size: 2rem;
+}
+body .advice-container button:active {
+  box-shadow: 1px 0px 30px 5px #3afa8491;
+  transform: scale(0.98);
+}
+@media (min-width: 80rem) {
+  body .advice-container {
+    width: 30%;
+  }
+  body .advice-container .body-advice {
+    width: 80%;
+  }
+  body .advice-container .icon {
+    right: 42%;
+  }
+}
+body .attribution {
+  position: absolute;
+  bottom: 0;
+  padding: 0.9375rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+}
+body .attribution a {
+  text-decoration: none;
+  color: #3afa84;
+}
+
+/*# sourceMappingURL=output.css.map */
